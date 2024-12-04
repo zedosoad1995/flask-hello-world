@@ -9,7 +9,6 @@ def hello_world():
     print("Request Path:", request.path)
     print("Request Args:", request.args)
     print("Request Form:", request.form)
-    print("Request JSON:", request.get_json())
     print("Request Remote Addr:", request.remote_addr)
     print("Request Access Route:", request.access_route)
     
